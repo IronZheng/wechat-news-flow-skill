@@ -1,0 +1,59 @@
+<!--
+  公众号文章模板（内联样式，可直接粘贴到公众号编辑器）
+  使用说明：把 {{占位}} 替换为真实内容；图片先用本地 images/news_0X.jpg，
+  发布前需将图片上传到公众号素材库再插入。整段复制粘贴即可，文字与排版会保留。
+-->
+<section style="max-width:740px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;color:#333333;padding:0 4px;">
+
+  <!-- 主标题 -->
+  <h1 style="font-size:22px;font-weight:bold;line-height:1.4;color:#1a1a1a;margin:24px 0 8px;">{{主标题}}</h1>
+
+  <!-- 副标题（可选，无则整段删除） -->
+  <p style="font-size:15px;color:#888888;margin:0 0 18px;">{{副标题}}</p>
+
+  <!-- 导语 -->
+  <section style="font-size:15px;color:#555555;background:#f7f7f7;padding:14px 16px;border-radius:6px;line-height:1.8;margin:0 0 8px;">
+    {{导语：2-4 句交代发生了什么、为什么重要}}
+  </section>
+
+  <hr style="border:none;border-top:1px solid #eeeeee;margin:24px 0;">
+
+  <!-- 第一小节 -->
+  <h2 style="font-size:18px;font-weight:bold;color:#1a1a1a;margin:8px 0 12px;border-left:4px solid #e63946;padding-left:10px;">{{小节标题一}}</h2>
+  <p style="font-size:16px;line-height:1.8;color:#333333;letter-spacing:0.5px;margin:14px 0;">{{正文段落}}</p>
+  <p style="font-size:16px;line-height:1.8;color:#333333;letter-spacing:0.5px;margin:14px 0;">{{正文段落}}</p>
+
+  <!-- 要点列表（按需使用） -->
+  <ul style="font-size:16px;line-height:1.9;color:#333333;padding-left:22px;margin:14px 0;">
+    <li style="margin:6px 0;">{{要点一}}</li>
+    <li style="margin:6px 0;">{{要点二}}</li>
+    <li style="margin:6px 0;">{{要点三}}</li>
+  </ul>
+
+  <!-- 第一张配图（本地路径；发布前上传素材库后替换） -->
+  <img src="images/news_01.jpg" style="width:100%;border-radius:6px;margin:14px 0;display:block;">
+  <p style="font-size:13px;color:#999999;text-align:center;margin:4px 0 18px;">{{图注：此处插入 news_01.jpg}}</p>
+
+  <hr style="border:none;border-top:1px solid #eeeeee;margin:24px 0;">
+
+  <!-- 第二小节 -->
+  <h2 style="font-size:18px;font-weight:bold;color:#1a1a1a;margin:8px 0 12px;border-left:4px solid #e63946;padding-left:10px;">{{小节标题二}}</h2>
+  <p style="font-size:16px;line-height:1.8;color:#333333;letter-spacing:0.5px;margin:14px 0;">{{正文段落}}</p>
+
+  <!-- 重点金句（高亮） -->
+  <p style="font-size:16px;line-height:1.8;color:#1a1a1a;background:#fff3cd;padding:12px 14px;border-radius:6px;margin:16px 0;">{{重点句 / 关键结论}}</p>
+
+  <!-- 第二张配图 -->
+  <img src="images/news_02.jpg" style="width:100%;border-radius:6px;margin:14px 0;display:block;">
+  <p style="font-size:13px;color:#999999;text-align:center;margin:4px 0 18px;">{{图注：此处插入 news_02.jpg}}</p>
+
+  <hr style="border:none;border-top:1px solid #eeeeee;margin:24px 0;">
+
+  <!-- 结语 -->
+  <h2 style="font-size:18px;font-weight:bold;color:#1a1a1a;margin:8px 0 12px;border-left:4px solid #e63946;padding-left:10px;">结语</h2>
+  <p style="font-size:16px;line-height:1.8;color:#333333;letter-spacing:0.5px;margin:14px 0 8px;">{{收束观点，不超过 3 句}}</p>
+
+  <!-- 信源清单（小字） -->
+  <p style="font-size:13px;color:#aaaaaa;line-height:1.7;margin:24px 0 8px;">资料来源：{{信源一}}、{{信源二}}、{{信源三}}</p>
+
+</section>

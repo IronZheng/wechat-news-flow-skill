@@ -1,0 +1,14 @@
+# 字节码缓存
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 本地产出（成稿目录，不进仓库）
+news-output/
+
+# 打包产物
+*.zip
